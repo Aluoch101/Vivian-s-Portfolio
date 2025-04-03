@@ -8,9 +8,9 @@ A responsive portfolio showcasing my journey as a medical student with expertise
 ## Features ✨
 
 - **Medical-Tech Focus**: Highlights both clinical and technical skills
-- **Interactive CV**: With downloadable PDF versions
-- **Project Showcase**: Detailed case studies with tech stack
-- **Responsive Design**: Works on all devices
+- **Interactive CV** 
+- **Project Showcase**: Projects I have undertaken.
+- **Responsive Design**
 - **Contact Form**: Easy collaboration requests
 
 ## Technologies Used 🛠️
