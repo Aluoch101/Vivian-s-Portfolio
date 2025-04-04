@@ -1,33 +1,29 @@
- /* ====== Modern Medical-Tech Theme ====== */
+
 :root {
-    /* Color Palette */
+
     --primary-color: #3a86ff;       /* Vibrant blue (trust/tech) */
     --secondary-color: #2b2d42;     /* Dark navy (professionalism) */
     --accent-color: ;        /* Teal (medical freshness) */
     --light-color: hsl(0, 11%, 93%);         /* Light background */
     --dark-color: #0817ed;          /* Dark text */
     --text-color: #1e0202;          /* Default text */
-    --text-light: #04031321.131);         /* Secondary text */
+    --text-light: #04031321;         /* Secondary text */
     
-    /* Gradients */
     --gradient-primary: linear-gradient(135deg, #057816 0%, #2667cc 100%);
     --gradient-accent: linear-gradient(135deg, #620404 0%, #04a57a 100%);
-    
-    /* Shadows */
+   
     --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
     --shadow-md: 0 4px 12px rgba(0,0,0,0.12);
     --shadow-lg: 0 8px 24px rgba(0,0,0,0.16);
     
-    /* Borders */
     --border-radius: 8px;
     --border-radius-lg: 12px;
     
-    /* Fonts */
+    
     --primary-font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --secondary-font: 'Lora', Georgia, serif;
 }
 
-/* ====== Base Styles ====== */
 * {
     margin: 0;
     padding: 0;
@@ -119,7 +115,6 @@ img {
     border-radius: 2px;
 }
 
-/* ====== Header ====== */
 header {
     background-color: white;
     box-shadow: var(--shadow-sm);
@@ -172,7 +167,7 @@ nav a:hover::after {
     width: 100%;
 }
 
-/* ====== Hero Section ====== */
+
 #hero {
     padding: 10rem 0 6rem;
     min-height: 100vh;
@@ -247,7 +242,7 @@ nav a:hover::after {
     z-index: 0;
 }
 
-/* ====== About Section ====== */
+
 #about {
     padding: 6rem 0;
     background-color: white;
@@ -313,7 +308,7 @@ nav a:hover::after {
     text-align: center;
 }
 
-/* ====== Skills Section ====== */
+
 #skills {
     padding: 6rem 0;
     background-color: var(--light-color);
@@ -373,7 +368,7 @@ nav a:hover::after {
     border-radius: 4px;
 }
 
-/* ====== Projects Section ====== */
+
 #projects {
     padding: 6rem 0;
     background-color: white;
@@ -441,7 +436,7 @@ nav a:hover::after {
     font-weight: 600;
 }
 
-/* ====== Education Section ====== */
+
 #education {
     padding: 6rem 0;
     background-color: var(--light-color);
@@ -544,7 +539,7 @@ nav a:hover::after {
     margin: 0 auto;
 }
 
-/* Single CV Button Styles */
+
 .cv-download-single {
     text-align: center;
     margin: 2rem 0 1rem;
@@ -595,7 +590,7 @@ nav a:hover::after {
     color: var(--accent-color);
 }
 
-/* ====== Contact Section ====== */
+
 #contact {
     padding: 6rem 0;
     background-color: whitesmoke;
@@ -710,7 +705,7 @@ nav a:hover::after {
     resize: vertical;
 }
 
-/* ====== Footer ====== */
+
 footer {
     background-color: var(--secondary-color);
     color: white;
@@ -732,7 +727,7 @@ footer .container {
     margin: 0 auto;
 }
 
-/* ====== Animations ====== */
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -749,7 +744,7 @@ footer .container {
     }
 }
 
-/* ====== Responsive Design ====== */
+
 @media (max-width: 992px) {
     .hero-content h1 {
         font-size: 2.8rem;
