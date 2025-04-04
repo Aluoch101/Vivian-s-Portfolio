@@ -832,3 +832,16 @@ footer .container {
         font-size: 1.4rem;
     }
 }
+
+@media (max-width: 768px) {
+    /* Header fixes */
+    header .container { ... }
+    
+    /* Timeline fixes */
+    .timeline::before { ... }
+  }
+  
+  @media (max-width: 576px) {
+    /* Contact form fixes */
+    .contact-container { ... }
+  } 
