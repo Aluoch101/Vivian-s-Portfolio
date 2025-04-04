@@ -2,12 +2,12 @@
 :root {
 
     --primary-color: #3a86ff;       /* Vibrant blue (trust/tech) */
-    --secondary-color: #2b2d42;     /* Dark navy (professionalism) */
-    --accent-color: ;        /* Teal (medical freshness) */
+    --secondary-color: hwb(0 2% 63% / 0.984);     /* Dark navy (professionalism) */
+    --accent-color: #620404;        /* Teal (medical freshness) */
     --light-color: hsl(0, 11%, 93%);         /* Light background */
-    --dark-color: #0817ed;          /* Dark text */
-    --text-color: #1e0202;          /* Default text */
-    --text-light: #04031321;         /* Secondary text */
+    --dark-color: hsl(240, 4%, 10%);          /* Dark text */
+    --text-color:black;          /* Default text */
+    --text-light: black;         /* Secondary text */
     
     --gradient-primary: linear-gradient(135deg, #057816 0%, #2667cc 100%);
     --gradient-accent: linear-gradient(135deg, #620404 0%, #04a57a 100%);
