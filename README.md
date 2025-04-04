@@ -1,7 +1,7 @@
 # Vivian-s-Portfolio
 # Medical-Student-Tech Portfolio 👨⚕️💻
 
-https://github.com/Aluoch101/Vivian-s-Portfolio/blob/main/assets/portfolio-preview.png
+https://github.com/Aluoch101/Vivian-s-Portfolio/blob/main/assets/portfolio-preview%20.png
 
 A responsive portfolio showcasing my journey as a medical student with expertise in data science, AI, and software engineering.
 
